@@ -5,7 +5,7 @@
 
 /* HTML Start */
 html{
-    background-image: url(../img/no_front.png);
+    /* background-image: url(../img/no_front.png); */
 }
 html,
 body {
@@ -19,13 +19,15 @@ body {
     height: 100%;
 }
 .content {
+    padding: 10px;
+    background: #999999;
     flex: 1 0 auto;
 }
 
 /* MMenu Start */
 .menu {
-    height: 4%;
-/*    background: #055000; */
+    height: 6%;
+    /* background: #055000; */
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -54,19 +56,66 @@ a {
     font-size: 15px;
     color: #371C1C;
 }
-#home_page:hover{
-color: #CD5C5C;
+#home_page {
+    background: url(../img/HP.png);
+    display: block;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    width: 100px;
+    height: 50px;
+}
+#home_page:hover {
+    background: url(../img/HP-r.png);
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+}
+#project_page {
+    background: url(../img/HP.png);
+    display: block;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    width: 100px;
+    height: 50px;
 }
 #project_page:hover {
-color: #CD5C5C;
+    background: url(../img/HP-r.png);
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+}
+#contact_page {
+    background: url(../img/HP.png);
+    display: block;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    width: 100px;
+    height: 50px;
 }
 #contact_page:hover {
-color: #CD5C5C;
+    background: url(../img/HP-r.png);
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
 }
 
 /* Footer Start */
 .footer {
     flex: 0 0 auto;
     text-align: center;
-    background: #000000;
+    list-style-type: none;
+}
+.img_cnt {
+    background-size: 100%;
+    width: 25px;
+    height: 25px;
 }
