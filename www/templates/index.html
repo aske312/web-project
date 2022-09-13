@@ -9,20 +9,35 @@
 </head>
 <body>
 <div class="wrapper">
-    <div class="menu">
-        <ul>
-            <li><a href="#" id="home_page" ></a></li>
-            <li><a href="#" id="project_page"></a></li>
-            <li><a href="#" id="contact_page"></a></li>
-        </ul>
+    <div class="top-bar">
+        <div class="top-left">
+            <ul>
+                <li id="mm"><a href="#" id="home_page" ></a></li>
+                <li id="mm"><a href="#" id="project_page"></a></li>
+                <li id="mm"><a href="#" id="contact_page"></a></li>
+            </ul>
+        </div>
+        <div class="top-right">
+            <a href="https://github.com/aske312"><img class="img_cnt" src="{% static 'img/cnt/git-contact.png'%}" alt="GIT: aske312"></a>
+            <a href="https://t.me/aske312"><img class="img_cnt" src="{% static 'img/cnt/tg-contact.png'%}" alt="TG: @aske312"></a>
+            <a href="mailto:aske312@yandex.ru"><img class="img_cnt" src="{% static 'img/cnt/eml-contact.png'%}" alt="EML: aske312@yandex.ru"></a>
+            <a href="https://vk.com/aske312"><img class="img_cnt" src="{% static 'img/cnt/vk-contact.png'%}" alt="VK: vk.com/aske312"></a>
+        </div>
     </div>
 
-    <div class="content">
-        <div> AREA </div>
+    <div class="content-bar">
+        <div class="content">content</div>
+        <div class="navigation">
+<!--            <ul>-->
+<!--                <li>Page_1</li>-->
+<!--                <li>Page_2</li>-->
+<!--                <li>Page_3</li>-->
+<!--                <li>Page_4</li>-->
+<!--            </ul>-->
+        </div>
     </div>
+
     <div class="footer">
-        <a href="https://vk.com/aske312"><img class="img_cnt" src="{% static 'img/vk-contact.png'%}" alt="VK: vk.com/aske312"></a>
-        <a href="https://t.me/aske312"><img class="img_cnt" src="{% static 'img/tg-contact.png'%}" alt="TG: @aske312"></a>
         <p>Create by: @aske312</p>
     </div>
 </div>

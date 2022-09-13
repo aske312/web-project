@@ -5,7 +5,7 @@
 
 /* HTML Start */
 html{
-    /* background-image: url(../img/no_front.png); */
+    background-image: url(../img/no_front.png);
 }
 html,
 body {
@@ -18,33 +18,57 @@ body {
     flex-direction: column;
     height: 100%;
 }
-.content {
-    padding: 10px;
-    background: #999999;
+.content-bar{
+    padding: 1px;
+    display: block;
+    /* background: #999999; */
     flex: 1 0 auto;
 }
-
-/* MMenu Start */
-.menu {
-    height: 6%;
-    /* background: #055000; */
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.content{
+    width: 70%;
+    background: #FFFFFF;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 10px;
+    margin-left: 5%;
+    margin-top: 10px;
+    float: left;
 }
-.menu,
-ul {
+.navigation{
+    /* background: #4CFAED; */
+    margin-top: 10px;
+    width: 20%;
+    float: right;
+}
+
+/* Top-bar Start */
+.top-bar {
+    height: 55px;
+    /* background: #055000; */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    display: block;
+    padding: 5px;
+}
+.top-left {
+    /* background: #47B240; */
+    float: left;
+    width: 50%;
+    margin: 0;
+}
+.top-right {
+    /* background: #CF4B40; */
+    padding-top: 1%;
+    width: 50%;
+    float: right;
+}
+.top-left, ul {
     list-style: none;
     margin: 0;
     padding-left: 0;
 }
-.menu,
-li {
+#mm {
     float: left;
 }
-.menu, ul,
-a {
-    /* background-image: url(navi_bg_divider.png); */
+.top-bar, ul, a {
     background-repeat: no-repeat;
     background-position: right;
     padding-right: 25px;
@@ -56,8 +80,15 @@ a {
     font-size: 15px;
     color: #371C1C;
 }
+.img_cnt {
+    background-size: 100%;
+    width: 35px;
+    padding-left: 15px;
+    height: 35px;
+    float: right;
+}
 #home_page {
-    background: url(../img/HP.png);
+    background: url(../img/mm/HP.png);
     display: block;
     -moz-background-size: 100%;
     -webkit-background-size: 100%;
@@ -67,14 +98,14 @@ a {
     height: 50px;
 }
 #home_page:hover {
-    background: url(../img/HP-r.png);
+    background: url(../img/mm/HP-r.png);
     -moz-background-size: 100%;
     -webkit-background-size: 100%;
     -o-background-size: 100%;
     background-size: 100%;
 }
 #project_page {
-    background: url(../img/HP.png);
+    background: url(../img/mm/PP.png);
     display: block;
     -moz-background-size: 100%;
     -webkit-background-size: 100%;
@@ -84,14 +115,14 @@ a {
     height: 50px;
 }
 #project_page:hover {
-    background: url(../img/HP-r.png);
+    background: url(../img/mm/PP-r.png);
     -moz-background-size: 100%;
     -webkit-background-size: 100%;
     -o-background-size: 100%;
     background-size: 100%;
 }
 #contact_page {
-    background: url(../img/HP.png);
+    background: url(../img/mm/CP.png);
     display: block;
     -moz-background-size: 100%;
     -webkit-background-size: 100%;
@@ -101,7 +132,7 @@ a {
     height: 50px;
 }
 #contact_page:hover {
-    background: url(../img/HP-r.png);
+    background: url(../img/mm/CP-r.png);
     -moz-background-size: 100%;
     -webkit-background-size: 100%;
     -o-background-size: 100%;
@@ -110,12 +141,12 @@ a {
 
 /* Footer Start */
 .footer {
+    background: black;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
     flex: 0 0 auto;
-    text-align: center;
+    text-align: right;
     list-style-type: none;
 }
-.img_cnt {
-    background-size: 100%;
-    width: 25px;
-    height: 25px;
+.footer, p {
+    color: #FFFFFF;
 }
